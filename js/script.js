@@ -80,7 +80,7 @@ function weatherInfo() {
     let wContainerWidth = wContainer.clientWidth;
 
     wContainer.style.left = `calc(50% - ${wContainerWidth/2}px)`;
-    wContainer.style.top = `calc(50% - ${wContainerHeight/1.3}px)`;
+    wContainer.style.top = `calc(50% - ${wContainerHeight/3}px)`;
     wContainer.style.visibility = 'visible';
 }
 
