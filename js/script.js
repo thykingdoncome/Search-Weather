@@ -60,7 +60,7 @@ function init(resultFromServer) {
     let cityElement = document.getElementById('city');
     let weatherIconElement = document.getElementById('weatherIcon');
 
-    weatherIconElement.src = 'http://openweathermap.org/img/w/' + resultFromServer.weather[0].icon + '.png';
+    weatherIconElement.src = 'https://openweathermap.org/img/w/' + resultFromServer.weather[0].icon + '.png';
 
     let resultDescription = resultFromServer.weather[0].description;
     descriptionElement.innerText = resultDescription.charAt(0).toUpperCase() + resultDescription.slice(1);
