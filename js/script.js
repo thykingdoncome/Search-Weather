@@ -65,7 +65,7 @@ function init(resultFromServer) {
     let resultDescription = resultFromServer.weather[0].description;
     descriptionElement.innerText = resultDescription.charAt(0).toUpperCase() + resultDescription.slice(1);
 
-    tempElement.innerHTML = Math.floor(resultFromServer.main.temp) + '&#176; ';
+    tempElement.innerHTML = Math.floor(resultFromServer.main.temp) + '&#176;F ';
     windElement.innerHTML = 'Winds at ' + Math.floor(resultFromServer.wind.speed) + 'm/s';
     humidityElement.innerHTML = 'Humidity levels at ' + resultFromServer.main.humidity + '%';
     cityElement.innerHTML = resultFromServer.name;
@@ -80,7 +80,8 @@ function weatherInfo() {
     let wContainerWidth = wContainer.clientWidth;
 
     wContainer.style.left = `calc(50% - ${wContainerWidth/2}px)`;
-    wContainer.style.top = `calc(50% - ${wContainerHeight/3}px)`;
+    wContainer.style.top = `calc(50% - ${wContainerHeight/2}px)`;
+    wContainer.style.position = ``;
     wContainer.style.visibility = 'visible';
 }
 
