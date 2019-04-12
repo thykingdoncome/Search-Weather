@@ -81,7 +81,6 @@ function weatherInfo() {
 
     wContainer.style.left = `calc(50% - ${wContainerWidth/2}px)`;
     wContainer.style.top = `calc(50% - ${wContainerHeight/2}px)`;
-    wContainer.style.position = ``;
     wContainer.style.visibility = 'visible';
 }
 

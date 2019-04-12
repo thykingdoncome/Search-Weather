@@ -74,7 +74,7 @@
     }
 
     #wContainer {
-        margin: 4em 1.1em;
+        margin: 2em 1.1em;
         background: rgb(10, 10, 10, 0.6);
         box-shadow: 1px 1px 5px rgb(20, 20, 20);
         border-radius: 6px;
@@ -83,12 +83,12 @@
     }
 
     h1 {
-        margin: .4em 0;
-        font-size: 2.4em;
+        margin: .3em 0;
+        font-size: 2.1em;
     }
 
     #weather {
-        margin-bottom: 1em;
+        margin-bottom: .6em;
     }
 
     #weather div {
@@ -102,12 +102,12 @@
     }
 
     #temp {
-        font-size: 2.2em;
+        font-size: 1.9em;
         vertical-align: 20%;
     }
 
     .bottom {
-        font-size: 1.4em;
+        font-size: 1.2em;
         text-align: right;
     }
 
@@ -118,7 +118,6 @@
         padding: 5px auto;
         color: white;
         font-size: .6em;
-        /* position: static; */
         line-height: .4em;
     }
 
