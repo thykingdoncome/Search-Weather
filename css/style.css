@@ -7,8 +7,12 @@
         background-repeat: no-repeat;
         color: white;
         text-shadow: 2px 2px 1px black;
-        height: ;
+        padding: 0;
         margin: 0;
+    }
+
+    p {
+        padding: 0;
     }
 
     main {
@@ -60,6 +64,12 @@
         border-radius: 6px;
         box-shadow: 2px 2px 5px black;
         outline: none;
+        transition: 1s;
+    }
+
+    .searchBox:hover {
+        background: white;
+        color: black;
     }
 
     #wContainer {
@@ -107,7 +117,7 @@
         padding: 5px auto;
         color: white;
         font-size: .6em;
-        position: static;
+        /* position: static; */
         line-height: .4em;
     }
 
@@ -178,7 +188,7 @@
         margin: 10px 0;
     }
 
-    #searchButt {
+    button {
         background: rgb(7, 47, 85);
         color: white;
         cursor: pointer;
@@ -186,6 +196,7 @@
         font-size: 20px;
         float: right;
         margin-right: 1em;
+        transition: 1s;
     }
 
     .searchBox {
@@ -194,6 +205,13 @@
         box-shadow: 2px 2px 5px black;
         outline: none;
     }
+
+
+    button:hover {
+        background: white;
+        color: black;
+    }
+
 
     #wContainer {
         margin: 200px auto;
